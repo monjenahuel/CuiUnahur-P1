@@ -218,3 +218,7 @@ footer {
     max-height:450px;
     border:0;
 }
+
+.BotonHome:hover{
+    opacity: 0.5;
+}
