@@ -222,3 +222,48 @@ footer {
 .BotonHome:hover{
     opacity: 0.5;
 }
+
+/* Register */
+
+.RegisterContainer{
+    margin-top: 50px;
+    max-width: 650px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #171720;
+    padding: 24px;
+    text-align: left;
+}
+
+.RegisterContainer h2{
+    font-size: 36px;
+    align-self:auto;
+}
+
+.RegisterContainer p{
+    font-size: 24px;
+    max-width: 40%;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.yellow-16{
+    font-size: 16px;
+    color: rgb(235, 181, 47);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.RegisterContainer ul{
+    margin-top: 10px;
+}
+
+.RegisterContainer ul li{
+    margin-left: 15px;
+}
+
+.formRegister button{
+    margin-top: 10px;
+    width: 100%;
+}
