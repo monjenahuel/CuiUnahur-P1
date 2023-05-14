@@ -5,11 +5,11 @@ let currentURL = window.location.pathname;
 if(window.location.pathname === "/register.html"){
     registerButton.innerText = "Home"
     registerButton.addEventListener("click", () => {
-        window.location.href = "/index.html";
+        window.location.href = "/CuiUnahur-P1";
     })
 }else{
     registerButton.innerText = "Register"
     registerButton.addEventListener("click", () => {
-        window.location.href = "/register.html";
+        window.location.href = "/CuiUnahur-P1/register.html";
     })
 }
